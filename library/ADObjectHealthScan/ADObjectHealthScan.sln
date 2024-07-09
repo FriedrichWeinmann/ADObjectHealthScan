@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{B98DE611-6A83-4D82-AEF8-23A4AC59D580}") = "ADObjectHealthScan", "ADObjectHealthScan\ADObjectHealthScan.csproj", "{87F164FF-FC4F-4A8B-9F52-CEF84AAAA67A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87F164FF-FC4F-4A8B-9F52-CEF84AAAA67A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87F164FF-FC4F-4A8B-9F52-CEF84AAAA67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87F164FF-FC4F-4A8B-9F52-CEF84AAAA67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87F164FF-FC4F-4A8B-9F52-CEF84AAAA67A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAEEB108-CAD6-4B41-ADCA-C88563CF1377}
+	EndGlobalSection
+EndGlobal
