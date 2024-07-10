@@ -12,7 +12,7 @@
 	Author            = 'Friedrich Weinmann'
 	
 	# Company or vendor of this module
-	CompanyName       = 'Microsoft'
+	CompanyName       = ' '
 	
 	# Copyright statement for this module
 	Copyright         = 'Copyright (c) 2024 Friedrich Weinmann'
