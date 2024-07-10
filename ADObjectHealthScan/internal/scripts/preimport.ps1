@@ -10,5 +10,8 @@ After building the module, this file will be completely ignored, adding anything
 
 $moduleRoot = Split-Path (Split-Path $PSScriptRoot)
 
+# Load Classes needed
+(Get-ChildItem "$moduleRoot\internal\classes\*.ps1" -ErrorAction Ignore).FullName
+
 # Load the strings used in messages
 "$moduleRoot\internal\scripts\strings.ps1"

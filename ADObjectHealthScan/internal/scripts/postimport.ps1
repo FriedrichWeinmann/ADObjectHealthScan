@@ -10,11 +10,17 @@ After building the module, this file will be completely ignored, adding anything
 
 $moduleRoot = Split-Path (Split-Path $PSScriptRoot)
 
+# Load Variables
+"$moduleRoot\internal\scripts\variables.ps1"
+
 # Load Configurations
 (Get-ChildItem "$moduleRoot\internal\configurations\*.ps1" -ErrorAction Ignore).FullName
 
 # Load Scriptblocks
 (Get-ChildItem "$moduleRoot\internal\scriptblocks\*.ps1" -ErrorAction Ignore).FullName
+
+# Load Checks
+(Get-ChildItem "$moduleRoot\internal\checks\*.ps1" -ErrorAction Ignore).FullName
 
 # Load Tab Expansion
 (Get-ChildItem "$moduleRoot\internal\tepp\*.tepp.ps1" -ErrorAction Ignore).FullName
